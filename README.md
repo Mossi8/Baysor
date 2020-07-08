@@ -10,7 +10,7 @@ To install Baysor as a Julia package run the following code:
 
 ```julia
 using Pkg
-Pkg.add(PackageSpec(url="https://github.com/hms-dbmi/Baysor.git"))
+Pkg.add(PackageSpec(url="https://github.com/kharchenkolab/Baysor.git"))
 import Baysor
 ```
 
@@ -19,7 +19,7 @@ import Baysor
 To build the command-line tool you need to clone this package and run the Makefile:
 
 ```bash
-git clone https://github.com/hms-dbmi/Baysor.git
+git clone https://github.com/kharchenkolab/Baysor.git
 cd Baysor/bin
 make
 ```
